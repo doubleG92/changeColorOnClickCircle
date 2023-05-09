@@ -33,7 +33,6 @@ function click (event) {
     // document.body.style.backgroundColor = currentColor
     let currentColorData = event.target.getAttribute('data-color')
     document.body.style.backgroundColor = currentColorData
-
 }
 allCircles.addEventListener('click', click)
 
@@ -41,7 +40,6 @@ function doubleClick (event) {
     let currentColorData = event.target.getAttribute('data-color')
     document.body.style.backgroundColor = 'white'
 }
-
 allCircles.addEventListener('dblclick', doubleClick)
 
 
